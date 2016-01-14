@@ -5,7 +5,7 @@ php:
 
 env:
   global:
-    - APP_NAME=obscure-citadel-8851
+    - APP_NAME=sample-php-mysql-heroku
     - CLEARDB_DATABASE_URL=mysql://shippable@127.0.0.1:3306/test?reconnect=true
 
 before_script: 
@@ -18,3 +18,8 @@ script:
 
 after_success:
   - git push -f git@heroku.com:$APP_NAME.git master
+
+services:
+  - mysql
+  
+build_image: drydock/u12phpall:tip
