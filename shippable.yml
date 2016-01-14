@@ -1,7 +1,15 @@
 language: php
 
+build_image: drydock/u12phpall:tip
+
+services:
+  - mysql
+  
 php: 
   - 5.4
+  - 5.5
+  - 5.6
+  - "7.0"
 
 env:
   global:
@@ -19,7 +27,4 @@ script:
 after_success:
   - git push -f git@heroku.com:$APP_NAME.git master
 
-services:
-  - mysql
-  
-build_image: drydock/u12phpall:tip
+
