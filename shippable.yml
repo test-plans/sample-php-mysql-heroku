@@ -14,6 +14,7 @@ env:
   global:
     - APP_NAME=sample-php-mysql-heroku
     - CLEARDB_DATABASE_URL=mysql://shippable@127.0.0.1:3306/test?reconnect=true
+    - secure: N5n8TIJKiMe6xo4yPldWUTcwRPZr5VLBu6tASIiypX3K2o4vNDHzXco85QI/hGZBSREK1nTDXc7/+aRerMHj8583r+dZUBm6Su9Fhl4S44BlORaxQj+lIXwUaShj8S7Q5PE36iXKgffeRuIpV9cDql2crwusY5B/DdOJxP84EoTCjUfnYWBS9KtN9l3OaHLUKsWflLrxoSS9BLHeJ6wstRLaceDsGx8QKz79iGn40o8VCmQs88HJUN27PAmum98DVc1EHRDX4XhDGaW+m5bGgIGUuTUSlAbs1Uczin5bCQLvbvBDK9wjqPI6NKUTex24HdOm0SR2R5Ocw1yauGJytg==
     - secure: MRuHkLbL9HPkJPU5lzkKM1+NOq1S5RrhxEyhJkk60xxYiF7DMzydiBN8oFBjWrSmyGeGRuEC22a0I5ItobdWVszfcJCaXHwtfKzfGOUdKuyCnDgvojXhv/jrBvULyLK6zsLw3b8NMxdnwNsHqSPm19qW/EIGEl9Zv/637Igos69z9aT7+xrEG013+6HtKYb8RHm+iPSNsFoBi/RSAHYuM1eLTZWG2WAkjgzZaYmrHCgNwVmk+HOGR+TOWN7Iu5lrjyvC1XDCQrOvo1hZI30cd9OqJ5aadFm3exQpNhI4I7AgOnCbK3NoWNc/GAnqKXCvsaIQ80Jd/uLIOVyMjD6Xmg==
 
 before_install:
