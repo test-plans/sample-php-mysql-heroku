@@ -14,7 +14,8 @@ env:
   global:
     - APP_NAME=sample-php-mysql-heroku
     - CLEARDB_DATABASE_URL=mysql://shippable@127.0.0.1:3306/test?reconnect=true
-    - secure: RfF1tcyyNlK/yn6ELFKHOe1LHLYuAQVUXY6bxlvhQvkBgu2YPj1vqDNQ3CNlGXik9mPhaYxXXoevcX/77VPHGzaRjUQ7JZH17iG/RAIiEsXb26ZIyiEwi3Q8YTsO863JI0pIkvFGkz9BhC8x4EcdaqOOZwW3JboTShIlMmltiCIX6Z/YVt0YrbaS1ZxvE6KUxkCoqor2KrUhLzqNztGjz3WILgLjkAUUV7huDcljoJlUlvUuGQwKEA0PIExPg9CjTq9cxJZblRqNGvQwgPd+jvUiZh3uTty1u7zeKnhYuJuoI60zAP6gCw2klYti+YpBL+yjlbNa5WEvZHyqZ0ievQ==
+    - secure: QsSEyRST2AS9b/47qwdLMjvh5aRps/hVsJDR8/NxrQfBe7AXvvNTgMjb9lSTzaBFs2KM1nm0XjZbTKBeUhgFKO8PVVt7XHP+W+B0vwNIbtYaAtvdDmsF/cMk8UT0t7IU633aTE5uztN3vvCrgd27/jqMzUUHeA8fZvzqYwg2OijF2MkqleWSiRaItCsRrCGHa+gadqXJf/OXIH3wJseoaiw30mtx4o8iv/7ZhJnIr8XelaqYdVdXVRtcZb9PrgSztnuc5AIpHojOtgscvtlp3enhYDkA9HbUUo/dwbTA5gddSSadudhOBL5u3f3zfJUYDG8hEtpJEIAxhRNJI2iSpA==
+  #  - secure: RfF1tcyyNlK/yn6ELFKHOe1LHLYuAQVUXY6bxlvhQvkBgu2YPj1vqDNQ3CNlGXik9mPhaYxXXoevcX/77VPHGzaRjUQ7JZH17iG/RAIiEsXb26ZIyiEwi3Q8YTsO863JI0pIkvFGkz9BhC8x4EcdaqOOZwW3JboTShIlMmltiCIX6Z/YVt0YrbaS1ZxvE6KUxkCoqor2KrUhLzqNztGjz3WILgLjkAUUV7huDcljoJlUlvUuGQwKEA0PIExPg9CjTq9cxJZblRqNGvQwgPd+jvUiZh3uTty1u7zeKnhYuJuoI60zAP6gCw2klYti+YpBL+yjlbNa5WEvZHyqZ0ievQ==
 
 before_install:
   - which heroku || wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
